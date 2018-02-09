@@ -6,18 +6,10 @@
         Polyhedron with Spherical Faces and<br> Three-dimensional Fractals
       </h1>
       <section class="has-text-centered">
-        <div class="tile is-parent">
-          <div class="tile is-child">
-            <figure>
-              <img class="has-text-centered" src="../img/final.png" width="256px"></img>
-            </figure>
-          </div>
-          <div class="tile is-child">
-            <figure >
-              <img class="has-text-centered" src="../img/final.png" width="256px"></img>
-            </figure>
-          </div>
-        </div>
+        <p>
+          <img class="" src="../img/final.png" width="256px"></img>
+          <img class="" src="../img/final.png" width="256px"></img>
+        </p>
       </section>
       <sectionContainer>
         <p slot="title">What is Sphairahedron</p>
@@ -27,23 +19,34 @@
       </sectionContainer>
       <sectionContainer>
         <p slot="title">How to Construct Fractals</p>
-        <p slot="content">Sphairahedron is polyhedron with</p>
+        <div slot="content">
+          <p>Sphairahedron is polyhedron with</p>
+        </div>
       </sectionContainer>
       <sectionContainer>
         <p slot="title">Fractal Renderer</p>
-        <p slot="content">Sphairahedron is polyhedron with</p>
+        <div slot="content">
+          <p>Sphairahedron is polyhedron</p>
+        </div>
       </sectionContainer>
       <sectionContainer>
         <p slot="title">Gallery</p>
         <div slot="content">
           <h3 class="title is-4">Tetrahedron</h3>
-          <h3 class="title is-4">Pentahedron</h3>
+          <h3 class="title is-4">Pentahedral Pyramid</h3>
+          <h3 class="title is-4">Pentahedral Prism</h3>
           <h3 class="title is-4">Cube</h3>
+          <h3 class="title is-4">Hexahedral Cake</h3>
         </div>
       </sectionContainer>
       <sectionContainer>
         <p slot="title">Reference</p>
-        <p slot="content">Sphairahedron is polyhedron with</p>
+        <div slot="content">
+          <ul>
+            <li>Foo</li>
+            <li>Bar</li>
+          </ul>
+        </div>
       </sectionContainer>
     </section>
   </div>
