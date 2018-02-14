@@ -11,8 +11,9 @@
         The first author is developing a web application to visualize sphairahedra and
         their fractals interactively.
         It is available at
-        <a href="https://github.com/soma-arc/SphairahedronExperiment">
-          https://github.com/soma-arc/SphairahedronExperiment</a>.
+        <a href="https://soma-arc.net/SphairahedronExperiment"
+           target="_blank">
+          https://soma-arc.net/SphairahedronExperiment</a>.
         The renderer requires WebGL 2.0 features. Also, according to the
         rendering parameters, it may require high GPU power, thus please run it at your
         own risk.
@@ -25,8 +26,9 @@
         We use <i>sphere tracing</i> and <i>Iterated Inversion System (IIS)</i>.
         Sphere tracing is a kind of ray tracing techniques.
         It is frequently used to render three-dimensional fractals.
-        For more details, read the <a href="http://blog.hvidtfeldts.net/index.php/2011/06/distance-estimated-3d-fractals-part-i/">blog post</a> by Mikael H Christensen.
-        IIS is an algorithm introduced in our previous works [2].
+        For more details, read the <a href="http://blog.hvidtfeldts.net/index.php/2011/06/distance-estimated-3d-fractals-part-i/" target="_blank">blog post</a> by Mikael H Christensen.
+        IIS is an algorithm to render fractals originated from reflections introduced
+        in our previous works [5].
       </p>
     </div>
   </sectionContainer>
