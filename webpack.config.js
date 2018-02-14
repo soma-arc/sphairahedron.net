@@ -36,7 +36,7 @@ module.exports = () => ({
                 loader: 'babel-loader',
             },
             {
-                test: /\.(png|gif)$/,
+                test: /\.(png|gif|jpg)$/,
                 exclude: /node_modules/,
                 loader: 'url-loader',
                 options: {

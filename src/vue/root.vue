@@ -5,15 +5,18 @@
       <h1 class="title has-text-centered" id="">
         Polyhedron with Spherical Faces and<br> Three-dimensional Fractals
       </h1>
+      <h2 class="subtitle is-8 has-text-centered" id="authors">
+        Kento Nakamura and Kazushi Ahara
+      </h2>
       <sectionContainer>
         <div slot="title">Introduction</div>
         <div slot="content">
           <div class="columns">
-            <figure class="column has-text-centered">
-              <img class="" src="../img/cube.png" width="256px"></img>
-            </figure>
-            <figure class="column has-text-centered">
-              <img class="" src="../img/final.png" width="256px"></img>
+              <figure class="column has-text-centered contain">
+                <img v-lazy="'../img/cube.png'"></img>
+              </figure>
+            <figure class="column has-text-centered contain">
+              <img v-lazy="'../img/final.png'"></img>
             </figure>
           </div>
           <p class="no-indent">
@@ -27,11 +30,11 @@
           </p>
           <div class="columns has-text-centered">
             <figure class="column">
-              <img src="../img/sphairaTessellation.gif" width="256px"></img><br>
+              <img v-lazy="'../img/sphairaTessellation.gif'" width="256px"></img><br>
               Tiling process of a finite sphairahedron
             </figure>
             <figure class="column">
-              <img src="../img/sphairaPrismTessellation.gif" width="256px"></img><br>
+              <img v-lazy="'../img/sphairaPrismTessellation.gif'" width="256px"></img><br>
               Tiling process of an infinite sphairahedron
             </figure>
           </div>
@@ -56,14 +59,14 @@
                     allow="autoplay; encrypted-media" allowfullscreen>
             </iframe>
           </figure>
-          <p>
+          <p class="no-indent">
             A quasi-fuchsian fractals is one of the three-dimensional fractals at an early
             era of visualizing fractals with computer.
             The video posted by Ahara and Araki shows the fractal based on a cube type
             sphairahedron.
             Despite its interesting idea and impressive shape,
             there are few publications and computer graphics images.
-            In this page, we show other types of sphairahedra and their fractals.
+            Thus, we show other types of sphairahedra and their fractals.
           </p>
         </div>
       </sectionContainer>
@@ -80,7 +83,6 @@ import SectionContainer from './sectionContainer.vue';
 import ReferenceContainer from './referenceContainer.vue';
 import GalleryContainer from './galleryContainer.vue';
 import RendererContainer from './rendererContainer.vue';
-import HowToContainer from './howToContainer.vue';
 
 export default {
     components: {
@@ -89,7 +91,6 @@ export default {
         ReferenceContainer,
         GalleryContainer,
         RendererContainer,
-        HowToContainer
     }
 }
 </script>
@@ -112,4 +113,15 @@ p.no-indent {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+#authors {
+    margin-bottom: 0;
+    margin-top: 1rem;
+}
+
+.contain {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+         
 </style>

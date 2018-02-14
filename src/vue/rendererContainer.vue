@@ -3,9 +3,9 @@
     <div slot="title">Fractal Renderer</div>
     <div slot="content">
       <div class="has-text-centered">
-      <figure>
-        <img src="../img/renderer.png" width="50%"></img>
-      </figure>
+        <figure id="rendererImg">
+          <img v-lazy="'../img/renderer.png'"></img>
+        </figure>
       </div>
       <p class="no-indent">
         The first author is developing a web application to visualize sphairahedra and
@@ -43,4 +43,8 @@ export default {
 </script>
 
 <style>
+#rendererImg {
+    padding-left: 10rem;
+    padding-right: 10rem;
+}
 </style>
