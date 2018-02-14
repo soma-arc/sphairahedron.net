@@ -21,11 +21,11 @@
       </p>
       <div class="columns has-text-centered padding">
         <figure class="column">
-          <img v-lazy="'../img/sphairaTessellation.gif'" width="256px"></img><br>
+          <img v-lazy="'../img/sphairaTessellation.gif'"></img><br>
           Tiling process of a finite sphairahedron
         </figure>
         <figure class="column">
-          <img v-lazy="'../img/sphairaPrismTessellation.gif'" width="256px"></img><br>
+          <img v-lazy="'../img/sphairaPrismTessellation.gif'"></img><br>
           Tiling process of an infinite sphairahedron
         </figure>
       </div>
