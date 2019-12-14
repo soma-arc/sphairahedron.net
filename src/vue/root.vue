@@ -11,6 +11,7 @@
       <introContainer/>
       <rendererContainer/>
       <galleryContainer/>
+      <threeDPrintedContainer/>
       <referenceContainer/>
     </section>
   </div>
@@ -23,6 +24,7 @@ import ReferenceContainer from './referenceContainer.vue';
 import GalleryContainer from './galleryContainer.vue';
 import RendererContainer from './rendererContainer.vue';
 import IntroContainer from './introContainer.vue';
+import ThreeDPrintedContainer from './3dPrintedContainer.vue';
 
 export default {
     components: {
@@ -31,7 +33,8 @@ export default {
         ReferenceContainer,
         GalleryContainer,
         RendererContainer,
-        IntroContainer
+        IntroContainer,
+        ThreeDPrintedContainer
     }
 }
 </script>
