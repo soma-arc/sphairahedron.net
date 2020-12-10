@@ -28,7 +28,7 @@
         It is frequently used to render three-dimensional fractals.
         For more details, read the <a href="http://blog.hvidtfeldts.net/index.php/2011/06/distance-estimated-3d-fractals-part-i/" target="_blank">blog post</a> by Mikael H Christensen.
         IIS is an algorithm to render fractals originated from reflections introduced
-        in our previous works [5].
+        in our previous works [6].
       </p>
     </div>
   </sectionContainer>

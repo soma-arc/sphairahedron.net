@@ -43,11 +43,13 @@
         For more details, see also [2] and [3].
       </p>
       <figure class="has-text-centered padding">
-        <iframe width="560" height="315"
-                src="https://www.youtube.com/embed/3lcO9zRCv-4?rel=0"
-                frameborder="0"
-                allow="autoplay; encrypted-media" allowfullscreen>
-        </iframe>
+        <div class="movie-wrap">
+          <iframe width="560" height="315"
+                  src="https://www.youtube.com/embed/3lcO9zRCv-4?rel=0"
+                  frameborder="0"
+                  allow="autoplay; encrypted-media" allowfullscreen>
+          </iframe>
+         </div>
       </figure>
       <p class="no-indent">
         A quasi-fuchsian fractal is one of the three-dimensional fractals at an early
@@ -57,7 +59,7 @@
         Despite its interesting shapes, there are few publications and visualized images.
         However, There are more variations of sphairahedra and their fractals.
         We explored variations of sphairahedra and their fractals which Ahara and Araki
-        did not visualize, and summarized them in our paper [4].
+        did not visualize, and summarized them in our paper [4] and [5].
       </p>
     </div>
   </sectionContainer>
@@ -74,4 +76,18 @@ export default {
 </script>
 
 <style>
+  .movie-wrap {
+     position: relative;
+     padding-bottom: 75%;
+     height: 0;
+     overflow: hidden;
+}
+ 
+.movie-wrap iframe {
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
 </style>

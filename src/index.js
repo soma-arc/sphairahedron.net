@@ -1,7 +1,7 @@
 import Vue from 'vue';
 import Buefy from 'buefy';
 import Root from './vue/root.vue';
-import 'buefy/lib/buefy.css'
+import 'buefy/dist/buefy.css'
 import VueLazyload from 'vue-lazyload'
 
 window.addEventListener('load', () => {

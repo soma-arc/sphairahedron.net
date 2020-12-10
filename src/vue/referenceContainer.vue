@@ -27,13 +27,6 @@
              target="_blank">
             https://www51.atwiki.jp/kazushiahara/pages/28.html</a>.
         </li>
-        <li class="referenceList">Kento Nakamura and Kazushi Ahara. “A Geometrical Representation and Visualization of Möbius
-          Transformation Groups.” Bridges Conference Proceedings, Waterloo, Canada, July, 27–31, 2017,
-          pp. 159–166.
-          <a href="http://archive.bridgesmathart.org/2017/bridges2017-159.html"
-             target="_blank">
-            http://archive.bridgesmathart.org/2017/bridges2017-159.html</a>.
-        </li>
         <li class="referenceList">Kento Nakamura and Kazushi Ahara.
           "Sphairahedra and Three-Dimensional Fractals." Bridges Conference Proceedings, Stockholm, Sweden, July, 25–29, 2018,
           pp. 171–178.
@@ -46,6 +39,13 @@
           <a href="https://github.com/soma-arc/ExperimentalMathematics/releases/tag/1.0" target="_blank">
             https://github.com/soma-arc/ExperimentalMathematics/releases/tag/1.0
           </a>
+        </li>
+        <li class="referenceList">Kento Nakamura and Kazushi Ahara. “A Geometrical Representation and Visualization of Möbius
+          Transformation Groups.” Bridges Conference Proceedings, Waterloo, Canada, July, 27–31, 2017,
+          pp. 159–166.
+          <a href="http://archive.bridgesmathart.org/2017/bridges2017-159.html"
+             target="_blank">
+            http://archive.bridgesmathart.org/2017/bridges2017-159.html</a>.
         </li>
       </ul>
     </div>
