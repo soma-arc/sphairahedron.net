@@ -4,11 +4,13 @@
   <div slot="content">
     <p class="no-indent">
       In this section, we show 3D printed fractals.
-      You can download models at Sketchfab.
-      (<a href="https://sketchfab.com/soma_arc"target="_blank">https://sketchfab.com/soma_arc</a>)
+      You can download models at Sketchfab
+      (<a href="https://sketchfab.com/soma_arc"target="_blank">https://sketchfab.com/soma_arc</a>.)
+      In the first author's blog post, we show how to prepare the data for 3D printing
+      (<a href="https://soma.hatenablog.jp/entry/2017/12/24/003321" target="_blank">https://soma.hatenablog.jp/entry/2017/12/24/003321</a>.)
       There are two types of printing materials.
       They are Monochrome printing and full-colored printing.
-      
+
     </p><br>
     <h3 class="title is-4">Monochrome printing by Makerbot Replicater Z18 with PLA resin.</h3>
     <div class="columns">

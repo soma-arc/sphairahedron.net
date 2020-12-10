@@ -3,10 +3,11 @@
     <header-content/>
     <section class="rootSection">
       <h1 class="title has-text-centered" id="">
-        Polyhedron with Spherical Faces and<br> Three-dimensional Fractals
+        Polyhedron with Spherical Faces and<br>
+        Four-Dimensional Kleinian Groups
       </h1>
       <h2 class="subtitle is-8 has-text-centered" id="authors">
-        Kento Nakamura and Kazushi Ahara
+        Kento Nakamura, Yoshiaki Araki, and Kazushi Ahara
       </h2>
       <introContainer/>
       <rendererContainer/>
